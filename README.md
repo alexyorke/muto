@@ -25,4 +25,4 @@ optional arguments:
 ```
 
 
-Muto only downloads the slides that you need, and only in the resolution that you require. This saves bandwidth and overall processing speed.
+Muto only downloads the slides that you need, and only in the resolution that you require. This saves bandwidth and overall processing speed. Support for PowerPoint presentations coming soon!
