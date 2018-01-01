@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
-import sys
 import os
+import tempfile
 from urllib.request import urlopen
 import imageio
 import urllib.request
@@ -54,8 +54,7 @@ else:
 # normalize url (it's a bit hacky)
 googleSlideId = googleSlideUrl.split("presentation/d/")[1].split("/")[0]
 
-tempDir = "/tmp/" + str(randint(10000, 100000))
-os.makedirs(tempDir, exist_ok=True)
+tempDir = tempfile.mkdtemp()
 
 # convert slide indencies and ranges into int list
 if (selectedSlides != "all"):
