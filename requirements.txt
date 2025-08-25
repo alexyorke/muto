@@ -1,2 +1,2 @@
-beautifulsoup4==4.6.0
+beautifulsoup4==4.13.5
 imageio==2.2.0
